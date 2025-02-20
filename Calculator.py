@@ -15,6 +15,7 @@ class Calculator:
             raise ValueError("Cannot divide by Zero")
         return a / b
     
+    # this function checks square root for a value
     def squareroot(self,a):
         return math.sqrt(a)
 
