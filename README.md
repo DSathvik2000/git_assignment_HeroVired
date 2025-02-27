@@ -140,19 +140,57 @@ cd git_assignment_HeroVired
    ```sh
    git clone https://github.com/DSathvik2000/git_assignment_HeroVired.git
    ```
-   ![WhatsApp Image 2025-02-27 at 20 45 48_4fdfc2dc](https://github.com/user-attachments/assets/b93d6e94-b0f7-4dcf-acf2-ab6880d5f4b7)
+ ![WhatsApp Image 2025-02-27 at 21 09 20_8d00f4ed](https://github.com/user-attachments/assets/c65c8ffa-fba1-4fda-a496-3071dcdbb0c3)
+ ![WhatsApp Image 2025-02-27 at 21 09 44_9a752e33](https://github.com/user-attachments/assets/73495176-b7d5-4822-bb6e-454350e219c4)
 
 
 ---
 
-## 💻 Usage Instructions
+## 🔢 Geometry Calculator
 
-- Open a terminal or command prompt.
-- Navigate to the repository directory:
-  ```sh
-  cd /path/to/repo-directory
-  ```
-- Run the desired Python script.
+### 🔹 Steps to Implement Circle & Rectangle Area Calculation:
+1. Create a new branch `geometry-calculator`
+    ```sh
+     git branch geometry-calculator
+     git checkout geometry-calculator
+    ```
+2. Create separate feature branches for circle (`feature/circle-area`) and rectangle (`feature/rectangle-area`) and stash the changes before commiting
+   ```sh
+    git branch feature/circle-area
+    git stash
+    git branch feature/rectangle-area
+    git stash
+   ```
+3. Switch back to `Circle-Area` branch and bring back the stashed changes by using the command
+   ```sh
+    git checkout feature/circle-area
+    git stash apply
+   ```
+4. Now complete the circle-area logic and push the changes
+   ```sh
+    git status
+    git add .
+    git commit -m "Logic added for feature/circle-area"
+    git push origin feature/circle-area
+   ```
+5. Checkout to `feature/rectangle-area` and bring back the stashed changes.
+   ```sh
+    git checkout feature/rectangle-area
+    git stash apply
+   ```
+7.  Complete the logic of rectangle-area and push the changes.
+   ```sh
+    git status
+    git add .
+    git commit -m "Logic added for feature/rectangle-area"
+    git push origin feature/rectangle-area
+   ```
+8. Create pull requests to merge both the branches to `dev`
+    ![image](https://github.com/user-attachments/assets/77c47cbe-d846-4a1d-b17e-e668124c56cd)
+    ![image](https://github.com/user-attachments/assets/4c2502c5-5c87-4462-839f-1d962547cde0)
+
+9. Check the changes once again in `dev` branch and create a pull request to merge these changes to `main` branch
+   ![image](https://github.com/user-attachments/assets/cb958bba-3605-490c-be8a-cd2ddf159173)
 
 ---
 
