@@ -1,4 +1,4 @@
-# 🚀 
+# 🚀 Getting to know more about the coomands in GitHub
 
 🛠️ **This repository contains scripts and workflows for managing Git branches, implementing new features, handling bug fixes, and using Git LFS efficiently.**
 
